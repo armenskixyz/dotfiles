@@ -1,6 +1,3 @@
-[submodule "ignis"]
-	path = ignis
-	url = ./ignis
 [submodule "nvim"]
 	path = nvim
 	url = https://github.com/armenskixyz/nvim.git
