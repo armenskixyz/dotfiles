@@ -11,9 +11,12 @@ set -U fish_greeting ""
 alias cd='z'
 alias ..='cd ..'
 alias ff='fastfetch'
-alias ls='ls --color=auto'
-alias grep='grep --color=auto'
+#alias ls='ls --color=auto'
+alias ls='eza --icons always --hyperlink'
+alias grep='rg --color=auto'
 alias vim='nvim'
+alias cat='bat'
+alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
 
 alias ds='docker start'
 
