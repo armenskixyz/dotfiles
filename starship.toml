@@ -76,6 +76,7 @@ green5 = "#798C79"
 [os]
 disabled = false
 style = "bg:color_blue fg:color_fg0"
+format = "[$symbol ]($style)"
 
 [os.symbols]
 Windows = "󰍲"
@@ -98,11 +99,11 @@ Debian = "󰣚"
 Redhat = "󱄛"
 RedHatEnterprise = "󱄛"
 
-[username]
-show_always = true
-style_user = "bg:color_blue fg:color_fg0"
-style_root = "bg:color_blue fg:color_fg0"
-format = '[ $user ]($style)'
+#[username]
+#show_always = true
+#style_user = "bg:color_blue fg:color_fg0"
+#style_root = "bg:color_blue fg:color_fg0"
+#format = '[ $user ]($style)'
 
 [directory]
 style = "fg:color_fg0 bg:color_aqua"
