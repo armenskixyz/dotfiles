@@ -17,6 +17,7 @@ alias grep='rg --color=auto'
 alias vim='nvim'
 alias cat='bat'
 alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
+alias cal='cal --monday'
 
 alias ds='docker start'
 
