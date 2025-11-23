@@ -6,6 +6,7 @@ set -Ux SAVEHIST 1000
 # Fish automatically supports "autocd"-like behavior
 
 set -U fish_greeting ""
+set -x EDITOR nvim
 
 # Aliases
 alias cd='z'
@@ -18,6 +19,7 @@ alias vim='nvim'
 alias cat='bat'
 alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
 alias cal='cal --monday'
+alias vencord-install='sh -c "$(curl -sS https://vencord.dev/install.sh)"'
 
 alias ds='docker start'
 
