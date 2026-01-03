@@ -78,16 +78,16 @@ RedHatEnterprise = "󱄛"
 
 [git_branch]
 disabled = false
-style = "pink"
+style = "mauve"
 symbol = " "
 format = "[on ](text)[$symbol$branch(:remote_branch)]($style) "
 
 [git_status]
-style = "pink"
+style = "mauve"
 format = '[($all_status$ahead_behind )]($style)'
 
 [time]
 disabled = false
 time_format = "%R"
-style = "mauve"
+style = "pink"
 format = '[ $time]($style)'

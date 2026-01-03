@@ -22,6 +22,7 @@ alias cal='cal --monday'
 alias vencord-install='sh -c "$(curl -sS https://vencord.dev/install.sh)"'
 
 alias ds='docker start'
+alias tailwindcli='npx @tailwindcss/cli'
 
 # Prompt (Fish uses its own prompt system; use Starship or customize below)
 # If using Starship for prompt:
