@@ -33,9 +33,9 @@ starship init fish | source
 #     echo -n '['(whoami)'@'(hostname)' '(prompt_pwd)']$ '
 # end
 
-# Pyenv init
-status --is-interactive; and pyenv init - | source
-status --is-interactive; and pyenv virtualenv-init - | source
+# # Pyenv init
+# status --is-interactive; and pyenv init - | source
+# status --is-interactive; and pyenv virtualenv-init - | source
 
 set -x PATH $PATH /home/armen/waybar/build/
 set -x PATH $PATH /home/armen/rb-scrobbler/build/

@@ -7,6 +7,7 @@ $username\
 $directory\
 $git_branch\
 $git_status\
+$nix_shell\
 [at](text)\
 $time
 $character
@@ -75,11 +76,12 @@ CentOS = ""
 Debian = "󰣚"
 Redhat = "󱄛"
 RedHatEnterprise = "󱄛"
+NixOS = "󱄅"
 
 [git_branch]
 disabled = false
 style = "mauve"
-symbol = " "
+symbol = " "
 format = "[on ](text)[$symbol$branch(:remote_branch)]($style) "
 
 [git_status]
@@ -91,3 +93,8 @@ disabled = false
 time_format = "%R"
 style = "pink"
 format = '[ $time]($style)'
+
+[nix_shell]
+symbol = "󱄅 "
+format = "via [$symbol$state( \\($name\\))]($style) "
+style = "mauve"
