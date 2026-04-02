@@ -1,0 +1,22 @@
+* {
+  background: @mantle;
+  normal-background:           @background;
+foreground:                  @text;
+alternate-normal-background: @base;
+selected-normal-background:  @pink;
+selected-normal-foreground: @base;
+}
+
+window {
+  width: 30%;
+  height: 20%;
+  border: 2px;
+  border-color: @pink;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+textbox {
+    text-color: @foreground;
+}
+
